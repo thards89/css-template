@@ -6,15 +6,20 @@ function App() {
     // Add a className to each div
     // Go the App.css and write the styles there
     <div>
+      <div className="containerOne">
       <Navigation/>
       <Hero/>
-      <div>
+      </div>
+      <div className="containerTwo">
         <LatestNews/>
         <WorldNews/>
         <LocalNews/>
       </div>
+      <div className="containerOne">
       <Footer/>
-    </div>
+      </div>
+  </div>
+
   )
 }
 
